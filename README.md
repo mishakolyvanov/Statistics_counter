@@ -7,6 +7,8 @@
 
 Для установки всех зависимостей выполнить `pip install -r requirements.txt`
 
+Сделать миграцию `python manage.py migrate` 
+
 Для запуска выполнить `python manage.py runserver`
 
 Приложение работает на порту 8000
