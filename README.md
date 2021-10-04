@@ -15,24 +15,24 @@
 
 Для перехода на swagger перейти по ссылке http://127.0.0.1:8000/swagger/
 
-GET:
-Пример Get запроса для получения всех записей: http://127.0.0.1:8000/api/event/
-Пример Get запроса для получения всех записей с 2017-12-30 до 2023-12-30: http://127.0.0.1:8000/api/event/?date_after=2017-12-30&date_before=2023-12-30
-Последний запрос, но с сортировкой по кликам: http://127.0.0.1:8000/api/event/?date_after=2017-12-30&date_before=2023-12-30&ordering=clicks
-Пример сортировки без даты: http://127.0.0.1:8000/api/event/?ordering=cost
-Сортировка в обратную сторону: http://127.0.0.1:8000/api/event/?ordering=-cost
+GET:<br>
+Пример Get запроса для получения всех записей: http://127.0.0.1:8000/api/event/ <br>
+Пример Get запроса для получения всех записей с 2017-12-30 до 2023-12-30: http://127.0.0.1:8000/api/event/?date_after=2017-12-30&date_before=2023-12-30 <br>
+Последний запрос, но с сортировкой по кликам: http://127.0.0.1:8000/api/event/?date_after=2017-12-30&date_before=2023-12-30&ordering=clicks <br>
+Пример сортировки без даты: http://127.0.0.1:8000/api/event/?ordering=cost <br>
+Сортировка в обратную сторону: http://127.0.0.1:8000/api/event/?ordering=-cost <br>
 
-POST:
-http://127.0.0.1:8000/api/event/ 
-KEY: Content-Type 
-VALUE: application/json
-Body:
-{
-    "date": "2017-04-11",
-    "views": 43,
-    "clicks": 13,
-    "cost": 44 
-}
+POST:<br>
+http://127.0.0.1:8000/api/event/ <br>
+KEY: Content-Type <br>
+VALUE: application/json<br>
+Body:<br>
+{<br>
+    "date": "2017-04-11",<br>
+    "views": 43,<br>
+    "clicks": 13,<br>
+    "cost": 44 <br>
+}<br>
 
-DELETE:
+DELETE:<br>
 http://127.0.0.1:8000/api/event/
